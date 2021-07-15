@@ -60,7 +60,7 @@ const albumData = [
     cover: 'Led_Zeppelin_-_Led_Zeppelin_II.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/58MQ0PLijVHePUonQlK76Y?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -72,7 +72,7 @@ const albumData = [
     cover: 'Led_Zeppelin_-_Led_Zeppelin_III.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6P5QHz4XtxOmS5EuiGIPut?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -84,7 +84,7 @@ const albumData = [
     cover: 'Led_Zeppelin_-_Led_Zeppelin_IV',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5EyIDBAqhnlkAHqvPRwdbX?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -96,7 +96,7 @@ const albumData = [
     cover: 'Led_Zeppelin_-_Houses_of_the_Holy.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0GqpoHJREPp0iuXK3HzrHk?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -108,7 +108,7 @@ const albumData = [
     cover: 'Led_Zeppelin_-_Physical_Graffiti',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4Q7cPyiP8cMIlUEHAqeYfd?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -120,7 +120,7 @@ const albumData = [
     cover: 'GunsnRosesAppetiteforDestructionalbumcover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/28yHV3Gdg30AiB8h8em1eW?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -132,7 +132,7 @@ const albumData = [
     cover: 'Audioslave_-_Audioslave.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/78guAsers0klWl6RwzgDLd?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -144,7 +144,7 @@ const albumData = [
     cover: 'New-Levels-Polyphia.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7GhytR6ZMWetf1jxAzITtG?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -156,7 +156,7 @@ const albumData = [
     cover: '440px-ACDC_Back_in_Black.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6mUdeDZCsExyJLMdAfDuwh?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -168,7 +168,7 @@ const albumData = [
     cover: 'Greta_Van_Fleet_-_The_Battle_at_Garden\'s_Gate.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7kjLKy9JLbwM9F7eDQEnd2?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -180,7 +180,7 @@ const albumData = [
     cover: 'Revolver_(album_cover).jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/3PRoXYsngSwjEQWR5PsHWR?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -192,7 +192,7 @@ const albumData = [
     cover: 'LetItBe.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0jTGHV5xqHPvEcwL8f6YU5?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -204,7 +204,7 @@ const albumData = [
     cover: 'Sgt._Pepper\'s_Lonely_Hearts_Club_Band.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6QaVfG1pHYl1z15ZxkvVDW?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -216,7 +216,7 @@ const albumData = [
     cover: 'Beatles_-_Abbey_Road.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0ETFjACtuP2ADo6LFhL6HN?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -228,7 +228,7 @@ const albumData = [
     cover: 'St._Vincent_-_Daddy\'s_Home.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/654KFpNOZ26Hj9luu7aKeM?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -240,7 +240,7 @@ const albumData = [
     cover: 'Mike_oldfield_tubular_bells_album_cover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0a3YQpBnRzJzNktOjb6Dum?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 1,
   },
   {
@@ -266,7 +266,7 @@ const albumData = [
     cover: 'King_Gizzard_&_the_Lizard_Wizard_-_Infest_the_Rats\'_Nest.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5Bz2LxOp0wz7ov0T9WiRmc?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -278,7 +278,7 @@ const albumData = [
     cover: 'Metallica_-_Master_of_Puppets_cover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5gzLOflH95LkKYE6XSXE9k?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -290,7 +290,7 @@ const albumData = [
     cover: 'Metallica_-_Kill_\'Em_All_cover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0vNBQof86Lv5gLuf26ML7o?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -302,7 +302,7 @@ const albumData = [
     cover: 'Ridetl.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/1nTvIQEXvygqSIqc2vuwAz?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -314,7 +314,7 @@ const albumData = [
     cover: 'Megadeth_-_Peace_Sells..._But_Who\'s_Buying-.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4U8ZF5zDIRy4lBnnXBN2uO?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -326,7 +326,7 @@ const albumData = [
     cover: 'Reign_in_blood.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2DumvqHl78bNXuvU9kQfPN?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -338,7 +338,7 @@ const albumData = [
     cover: 'IronMaiden_NumberOfBeast.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/33d72N71hl9bXwT4zAcqUy?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -350,7 +350,7 @@ const albumData = [
     cover: 'Black_Sabbath_-_Paranoid.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6r7LZXAVueS5DqdrvXJJK7?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -362,7 +362,7 @@ const albumData = [
     cover: 'Black_Sabbath_debut_album-2.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4ZLy3U2q17Yjw7jkjXPJQj?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
   {
@@ -374,7 +374,7 @@ const albumData = [
     cover: 'Judas_Priest_British_Steel.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5bqtZRbUZUxUps8mrO9tGY?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 2,
   },
 
@@ -388,7 +388,7 @@ const albumData = [
     cover: 'Dua_Lipa_-_Future_Nostalgia_(Official_Album_Cover)',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0JeyP8r2hBxYIoxXv11XiX?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -400,7 +400,7 @@ const albumData = [
     cover: 'Miley_Cyrus_-_Plastic_Hearts.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5BRhg6NSEZOj0BR6Iz56fR?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -412,7 +412,7 @@ const albumData = [
     cover: 'Olivia_Rodrigo_-_SOUR.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6s84u2TUpR3wdUv4NgKA2j?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -424,7 +424,7 @@ const albumData = [
     cover: 'When_We_All_Fall_Asleep,_Where_Do_We_Go.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0S0KGZnfBGSIssfF54WSJh?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -436,7 +436,7 @@ const albumData = [
     cover: 'Adele_-_21.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0Lg1uZvI312TPqxNWShFXL?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -448,7 +448,7 @@ const albumData = [
     cover: 'WillowSelfTitled.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4B2pV5Zds6478QOqA8yqdj?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -460,7 +460,7 @@ const albumData = [
     cover: 'Tame_Impala_-_The_Slow_Rush-2.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/31qVWUdRrlb8thMvts0yYL?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -472,7 +472,7 @@ const albumData = [
     cover: 'Tame_Impala_-_Currents.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/79dL7FLiJFOO0EoehUHQBv?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -484,7 +484,7 @@ const albumData = [
     cover: 'PatD_-_Pretty._Odd..jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7Hk9WbjPbN1n2GXaK7aldw?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
   {
@@ -496,7 +496,7 @@ const albumData = [
     cover: 'Trench_Twenty_One_Pilots.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/621cXqrTSSJi1WqDMSLmbL?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 3,
   },
 
@@ -510,7 +510,7 @@ const albumData = [
     cover: 'Steve_Aoki_–_Neon_Future_III.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2XLdhcA2xQy2Iw74Cly9QL?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -522,7 +522,7 @@ const albumData = [
     cover: 'Porter_Robinson_-_Nurture.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4Hjqdhj5rh816i1dfcUEaM?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -534,7 +534,7 @@ const albumData = [
     cover: 'Deadmau5_4x4=12.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0tCLiTicEOdRuqFWJrHDcR?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -546,7 +546,7 @@ const albumData = [
     cover: 'Skrillex_-_Bangarang_(EP).png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5XJ2NeBxZP3HFM8VoBQEUe?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -558,7 +558,7 @@ const albumData = [
     cover: 'Daftpunk-homework.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5uRdvUR7xCnHmUW8n64n9y?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -570,7 +570,7 @@ const albumData = [
     cover: 'Dig_your_own_hole_album_cover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/0FjHy5dCyVROqDUl6f2VTK?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -582,11 +582,11 @@ const albumData = [
     cover: 'Moby_play.JPG',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/3wRlU7n3LULfjL0e9RtB5Q?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
-    album_name: 'Computerwelt',
+    album_name: 'Computer World',
     artist_name: 'Kraftwerk',
     released: '10/05/1981',
     label: 'Warner Bros./Kling Klang',
@@ -594,7 +594,7 @@ const albumData = [
     cover: 'Kraftwerk_-_Computer_World.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/07BPkQfT4B5xjDwjCxRiN2?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -606,7 +606,7 @@ const albumData = [
     cover: 'MassiveAttackBlueLines.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5mAPk4qeNqVLtNydaWbWlf?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
   {
@@ -618,7 +618,7 @@ const albumData = [
     cover: 'C418_-_Minecraft_-_Volume_Alpha.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/3Gt7rOjcZQoHCfnKl5AkK7?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 4,
   },
 
@@ -632,7 +632,7 @@ const albumData = [
     cover: 'Amy_Winehouse_-_Back_to_Black_(album).png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/097eYvf9NKjFnv4xA9s2oV?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -644,7 +644,7 @@ const albumData = [
     cover: 'Tattoo6xi.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4lC6XXj4Cq9rsaJh7EghRg?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -656,7 +656,7 @@ const albumData = [
     cover: 'MarvinGayeWhat\'sGoingOnalbumcover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2v6ANhWhZBUKkg6pJJBs3B?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -668,7 +668,7 @@ const albumData = [
     cover: 'Songs_in_the_key_of_life.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6YUCc2RiXcEKS9ibuZxjt0?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -680,7 +680,7 @@ const albumData = [
     cover: 'Chuck_Berry_-_One_Dozen_Berry\'s.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7CwgdWMtqOgQRzOdzHMwiQ?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -692,7 +692,7 @@ const albumData = [
     cover: 'B.B._King_Completely_Well.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7gzkgAWjOjEf5o6sIvBvT1?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -704,7 +704,7 @@ const albumData = [
     cover: 'StevieRayVaughanTexasFlood.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/1AL5oXZRtTc8PyhcTwg4xQ?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -716,7 +716,7 @@ const albumData = [
     cover: 'BornUnderABadSign.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/42WQ76qWDQmHlHvJa6Z3Uw?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -728,7 +728,7 @@ const albumData = [
     cover: 'KotDBS1.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2IWaNq5o4tG1w6yxve5BMU?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
   {
@@ -737,10 +737,10 @@ const albumData = [
     released: '00/08/1963',
     label: 'RCA Victor',
     length: '37:51',
-    cover: '',
+    cover: 'Night_Beat_cover.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4FsWNGbkeZtMD1BWXhIvRk?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 5,
   },
 
@@ -754,7 +754,7 @@ const albumData = [
     cover: 'MilesDavisKindofBlue.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/1weenld61qoidwYuZ1GESA?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
@@ -766,7 +766,7 @@ const albumData = [
     cover: 'John_Coltrane_-_A_Love_Supreme.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7Eoz7hJvaX1eFkbpQxC5PA?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
@@ -775,10 +775,10 @@ const albumData = [
     released: '00/08/1976',
     label: 'Epic/Legacy',
     length: '42:09',
-    cover: '',
+    cover: 'Jaco_Pastorius_(1976).JPG',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/47nWcb5GzhgGNzJuCJgiPN?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
@@ -787,10 +787,10 @@ const albumData = [
     released: '00/10/1959',
     label: 'Columbia',
     length: '50:53',
-    cover: '',
+    cover: 'Mingus_Ah_Um_-_Charles_Mingus.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4Z8nWz3dGybOP7lhMZpcOo?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
@@ -799,10 +799,10 @@ const albumData = [
     released: '00/00/1998',
     label: 'Concord',
     length: '68:25',
-    cover: '',
+    cover: 'Gary_Burton_Like_Minds.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2es5VG5ZUq4Z6WPTNyTrKf?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
@@ -814,55 +814,55 @@ const albumData = [
     cover: 'Herbie-Hancock-Head-Hunters.png',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5fmIolILp5NAtNYiRPjhzA?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
-    album_name: 'Th Shape of Jazz to Come',
+    album_name: 'The Shape of Jazz to Come',
     artist_name: 'Ornette Coleman',
-    released: '//',
-    label: '',
-    length: ':',
-    cover: '',
+    released: '00/11/1959',
+    label: 'Atlantic',
+    length: '37:59',
+    cover: 'ShapeOfJazzToCome-2.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2iPH3iUmpa9ufIpwY76keF?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
     album_name: 'Saxophone Colossus',
     artist_name: 'Sonny Rollins',
-    released: '//',
-    label: '',
-    length: ':',
-    cover: '',
+    released: '00/00/1956',
+    label: 'Prestige',
+    length: '39:58',
+    cover: 'Saxophone_Colossus_-_Sonny_Rollins.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/2dtjLAwt7Cq763h6AupyPZ?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
     album_name: 'Lady in Satin',
     artist_name: 'Billie Holiday',
-    released: '//',
-    label: '',
-    length: ':',
-    cover: '',
+    released: '00/06/1958',
+    label: 'Columbia',
+    length: '44:36',
+    cover: 'Ladyinsatin2.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4LrLP7DM1KBj8r2Sc098JA?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
   {
     album_name: 'Bitches Brew',
     artist_name: 'Miles Davis',
-    released: '//',
-    label: '',
-    length: ':',
-    cover: '',
+    released: '30/03/1970',
+    label: 'Columbia',
+    length: '94:11',
+    cover: 'Bitches_brew.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/3Q0zkOZEOC855ErOOJ1AdO?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 6,
   },
 
@@ -876,7 +876,7 @@ const albumData = [
     cover: 'theplanets.jpg',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4v0Xyz0LVToUsSTGdsvKSK?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -888,7 +888,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/317b74rpNBO2uhaJFyMaxJ?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -900,7 +900,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7y2gHGuQhJmesRiNO8d8fK?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -912,7 +912,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7sujQr6ZaHuOcYunWilBB0?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -924,7 +924,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/55gMu4AvAKCbCaGv3GIXgy?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -936,7 +936,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6eOuqhCfrTPp1H0YbQ9PmL?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -948,7 +948,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7nL2OSSXQY5T6AcvY3Caey?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -960,7 +960,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/1aCpHSQE5ghxibsQ5gkBe0?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -972,7 +972,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/6sruyMSNa4aTz9x7RCeD1D?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
   {
@@ -984,7 +984,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/7sZEHobWVNVWwvBYycTP1z?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 7,
   },
 
@@ -998,7 +998,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4TJIdlY9hGSSTO1kUs1neh?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 8,
   },
   {
@@ -1010,7 +1010,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/4j4w5DDWMKD7ePStAl19OF?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 8,
   },
   {
@@ -1022,7 +1022,7 @@ const albumData = [
     cover: '',
     amazon_image_link: '',
     amazon_link: '',
-    spotify_embed: '',
+    spotify_embed: '<iframe src="https://open.spotify.com/embed/album/5aEtg4dxdBk4pj6SJ3hNsM?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
     genre_id: 8,
   },
   {
