@@ -25,11 +25,11 @@ Comment.init(
                 key: 'id'
             }
         },
-        post_id: {
+        album_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
-                model: 'post',
+                model: 'album',
                 key: 'id'
             },
             onDelete: 'cascade'

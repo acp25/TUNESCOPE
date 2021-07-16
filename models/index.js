@@ -4,39 +4,40 @@ const Tag = require('./tag');
 const Genre = require('./genre');
 const Comment = require('./comments');
 const Playlist = require('./playlist');
+const Subgenre = require('./subgenre');
 
 
 // Playlist belongs to User
-Playlist.belongsTo(User, {
+User.belongsTo(Playlist, {
     foreign_key: 'playlist_id'
 });
 
 //User hasOne Playlist
-User.hasOne(Playlist, {
-    foreign_key: 'id'
+Playlist.hasOne(User, {
+    foreign_key: 'playlist_id'
 });
 
 //Playlist hasMany Albums
 
 Playlist.hasMany(Album, {
-    foreign_key: 'id'
+    foreign_key: 'playlist_album_id'
 });
 
 //Album belongsToMany Playlist
 
-Album.belongsToMany(Playlist, {
-    foreign_key: 'album_id'
+Album.belongsTo(Playlist, {
+    foreign_key: 'playlist_album_id'
 });
 
 //Album has one genre
 
-Album.hasOne(Genre, {
-    foreign_key: 'id',
+Genre.hasMany(Album, {
+    foreign_key: 'genre_id',
 });
 
 //Genre belongs to many albums
 
-Genre.belongsToMany(Album, {
+Album.belongsTo(Genre, {
     foreign_key: 'genre_id'
 });
 
@@ -46,7 +47,7 @@ Album.hasMany(Comment, {
 });
 //Comment belongs to album
 Comment.belongsTo(Album, {
-    foreign_key: 'id'
+    foreign_key: 'album_id'
 });
 //User has many comments
 User.hasMany(Comment, {
@@ -55,18 +56,20 @@ User.hasMany(Comment, {
 
 //comment has one user
 
-Comment.hasOne(User, {
-    foreign_key: "id"
+Comment.belongsTo(User, {
+    foreign_key: "user_id"
 });
 
 //Album has many tags
 
-Album.hasMany(Tag, {
-    foreign_key: 'id'
+Album.belongsToMany(Tag, {
+    foreign_key: 'album_id',
+    through: Subgenre
 });
 
 Tag.belongsToMany(Album, {
-    foreign_key: 'tag_id'
+    foreign_key: 'tag_id',
+    through: Subgenre
 });
 
 module.exports = {
@@ -75,7 +78,8 @@ module.exports = {
     Tag,
     Playlist,
     Comment,
-    Genre
+    Genre,
+    Subgenre
   };
 
 // Each Playlist album_id references => multiple Album Id’s
