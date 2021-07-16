@@ -2,46 +2,46 @@ const { Tag } = require('../models');
 
 const tagData = [
   {
-    tag_name: 'Classic Rock',
+    name: 'Classic Rock',
   },
   {
-    tag_name: 'Progressive Rock',
+    name: 'Progressive Rock',
   },
   {
-    tag_name: 'Psychadelic Rock',
+    name: 'Psychadelic Rock',
   },
   {
-    tag_name: 'Hard Rock',
+    name: 'Hard Rock',
   },
   {
-    tag_name: 'Glam Rock',
+    name: 'Glam Rock',
   },
   {
-    tag_name: 'Soft Rock',
+    name: 'Soft Rock',
   },
   {
-    tag_name: 'Modern Rock',
+    name: 'Modern Rock',
   },
   {
-    tag_name: 'Experimental Rock',
+    name: 'Experimental Rock',
   },
   {
-    tag_name: 'Indie Rock',
+    name: 'Indie Rock',
   },
   {
-    tag_name: 'Alternative Rock',
+    name: 'Alternative Rock',
   },
   {
-    tag_name: 'Funk Rock',
+    name: 'Funk Rock',
   },
   {
-    tag_name: 'Southern Rock',
+    name: 'Southern Rock',
   },
   {
-    tag_name: 'Blues Rock',
+    name: 'Blues Rock',
   },
   {
-    tag_name: 'Folk Rock',
+    name: 'Folk Rock',
   },
 ];
 
