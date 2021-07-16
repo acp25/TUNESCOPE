@@ -69,6 +69,14 @@ Tag.belongsToMany(Album, {
     foreign_key: 'tag_id'
 });
 
+module.exports = {
+    User,
+    Album,
+    Tag,
+    Playlist,
+    Comment,
+    Genre
+  };
 
 // Each Playlist album_id references => multiple Album Id’s
 // Each Album genre_id references => a Genre Id
