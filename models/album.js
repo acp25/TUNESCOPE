@@ -6,7 +6,7 @@ const sequelize = require('../config/connection');
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Album extends Model {}
 
-// set up fields and rules for Product model
+// set up fields and rules for Album model
 Album.init(
   {
     id: {
@@ -22,8 +22,8 @@ Album.init(
     },
 
     artist_name: {
-        type: DataTypes.STRING,
-        allowNull: false
+      type: DataTypes.STRING,
+      allowNull: false
       },
 
     released: {
@@ -33,12 +33,12 @@ Album.init(
 
     label: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
       },
 
     length: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
       },
 
     cover: {
@@ -48,12 +48,12 @@ Album.init(
 
     amazon_image_link: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
       },
 
     amazon_link: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
       },
 
     spotify_embed: {
@@ -61,15 +61,28 @@ Album.init(
         allowNull: false
       },
 
+    likes: {
+       type: DataTypes.INTEGER,
+       default: 0
+      },
+
+    tag_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'Tag',
+        key: 'id',
+        unique: false
+      },
+
+    },
     genre_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'Genre',
         key: 'id',
-        unique: false
-      }
-    }
-
+        unique: false,
+      },
+    },
   },
   {
     sequelize,

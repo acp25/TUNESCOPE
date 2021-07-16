@@ -2,34 +2,34 @@ const { Genre } = require('../models');
 
 const genreData = [
   {
-    genre_name: 'Rock',
+    name: 'Rock',
   },
   {
-    genre_name: 'Metal',
+    name: 'Metal',
   },
   {
-    genre_name: 'Pop',
+    name: 'Pop',
   },
   {
-    genre_name: 'Electronic',
+    name: 'Electronic',
   },
   {
-    genre_name: 'R&B/Blues',
+    name: 'R&B/Blues',
   },
   {
-    genre_name: 'Jazz',
+    name: 'Jazz',
   },
   {
-    genre_name: 'Classical',
+    name: 'Classical',
   },
   {
-    genre_name: 'Country',
+    name: 'Country',
   },
   {
-    genre_name: 'Rap/Hip-Hop',
+    name: 'Rap/Hip-Hop',
   },
 ];
 
-const seedgenres = () => genre.bulkCreate(genreData);
+const seedGenres = () => genre.bulkCreate(genreData);
 
-module.exports = seedgenres;
+module.exports = seedGenres;
