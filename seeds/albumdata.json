@@ -10,6 +10,7 @@
         "amazon_link":"<iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=tunescope-20&marketplace=amazon&amp;region=US&placement=B01LTHN0DG&asins=B01LTHN0DG&linkId=9e8ddce52707ca4e5173b77e138e31e1&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=a7a7f0&bg_color=ffffff\"></iframe>",
         "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/4LH4d3cOWNNsVw41Gqt2kv?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":1
+      
     },
     {
         "album_name":"Wish You Were Here",
@@ -1207,3 +1208,5 @@
         "genre_id":9
     }
 ]
+
+  

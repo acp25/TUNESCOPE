@@ -8,21 +8,27 @@ const Subgenre = require('./subgenre');
 
 
 // Playlist belongs to User
-User.belongsTo(Playlist, {
+Album.hasMany(User, {
     foreign_key: 'playlist_id'
 });
 //User hasOne Playlist
-Playlist.hasOne(User, {
+User.belongsTo(Album, {
     foreign_key: 'playlist_id'
 });
 //Playlist hasMany Albums
-Playlist.hasMany(Album, {
-    foreign_key: 'playlist_album_id'
-});
+
+// Playlist.hasMany(Album, {
+//     foreign_key: 'playlist_album_id',
+//     onDelete: 'CASCADE'
+// });
+
 //Album belongsToMany Playlist
-Album.belongsTo(Playlist, {
-    foreign_key: 'playlist_album_id'
-});
+
+// Album.belongsTo(Playlist, {
+//     foreign_key: 'playlist_album_id',
+//     onDelete: 'CASCADE'
+// });
+
 //Album has one genre
 Genre.hasMany(Album, {
     foreign_key: 'genre_id',

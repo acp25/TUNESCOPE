@@ -29,7 +29,7 @@ Album.init(
     released: {
       type: DataTypes.STRING,
 // <<<<<<< routes
-      allowNull: false,
+      allowNull: true,
 // >>>>>>> main
     },
 
