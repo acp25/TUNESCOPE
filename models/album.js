@@ -29,7 +29,7 @@ Album.init(
     released: {
       type: DataTypes.STRING,
 // <<<<<<< routes
-      allowNull: false,
+      allowNull: true,
 // >>>>>>> main
     },
 
@@ -51,7 +51,7 @@ Album.init(
     amazon_image_link: {
 // <<<<<<< routes
       type: DataTypes.STRING,
-=======
+
       type: DataTypes.TEXT,
 // >>>>>>> main
       allowNull: true,
@@ -60,7 +60,7 @@ Album.init(
     amazon_link: {
 // <<<<<<< routes
       type: DataTypes.STRING,
-=======
+
       type: DataTypes.TEXT,
 // >>>>>>> main
       allowNull: true,
@@ -69,7 +69,7 @@ Album.init(
     spotify_embed: {
 // <<<<<<< routes
       type: DataTypes.STRING,
-=======
+
       type: DataTypes.TEXT,
 // >>>>>>> main
       allowNull: false,

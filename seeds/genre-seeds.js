@@ -32,7 +32,7 @@ const genreData = [
 ];
 
 const seedGenres = async () =>  {
-  await sequelize.sync({force: true})
+  await sequelize.sync({force: false})
   await Genre.bulkCreate(genreData)}
 
  module.exports = seedGenres;
