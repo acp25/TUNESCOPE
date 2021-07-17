@@ -28,6 +28,9 @@ Album.init(
 
     released: {
       type: DataTypes.STRING,
+// <<<<<<< routes
+      allowNull: false,
+// >>>>>>> main
     },
 
     label: {
@@ -46,17 +49,29 @@ Album.init(
     },
 
     amazon_image_link: {
+// <<<<<<< routes
+      type: DataTypes.STRING,
+=======
       type: DataTypes.TEXT,
+// >>>>>>> main
       allowNull: true,
     },
 
     amazon_link: {
+// <<<<<<< routes
+      type: DataTypes.STRING,
+=======
       type: DataTypes.TEXT,
+// >>>>>>> main
       allowNull: true,
     },
 
     spotify_embed: {
+// <<<<<<< routes
+      type: DataTypes.STRING,
+=======
       type: DataTypes.TEXT,
+// >>>>>>> main
       allowNull: false,
     },
 
