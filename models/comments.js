@@ -1,3 +1,5 @@
+  
+  
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -25,11 +27,11 @@ comment.init(
                 key: 'id'
             }
         },
-        post_id: {
+        album_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
-                model: 'post',
+                model: 'album',
                 key: 'id'
             },
             onDelete: 'cascade'
@@ -43,4 +45,4 @@ comment.init(
     }
 );
 
-module.exports = comment;
+module.exports = Comment;

@@ -14,14 +14,14 @@ Playlist.init(
             primaryKey: true,
             autoIncrement: true
         },
-        album_id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            references: {
-                model: 'Album',
-                key: 'id'
-            }   
-        }
+        // album_id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     references: {
+        //         model: 'Album',
+        //         key: 'id'
+        //     }   
+        // }
         
     },
     {
@@ -29,7 +29,7 @@ Playlist.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'Playlist',
+        modelName: 'playlist',
     }
 );
 

@@ -1,3 +1,4 @@
+  
 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
@@ -28,4 +29,4 @@ tag.init(
   }
 );
 
-module.exports = tag;
+module.exports = Tag;

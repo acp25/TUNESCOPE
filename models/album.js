@@ -1,7 +1,7 @@
 // import important parts of sequelize library
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes } = require("sequelize");
 // import our database connection from config.js
-const sequelize = require('../config/connection');
+const sequelize = require("../config/connection");
 
 // Initialize Album model (table) by extending off Sequelize's Model class
 class album extends Model {}
@@ -13,74 +13,94 @@ album.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
     },
 
     album_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
 
     artist_name: {
       type: DataTypes.STRING,
-      allowNull: false
-      },
+      allowNull: false,
+    },
 
     released: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
+      type: DataTypes.STRING,
+// <<<<<<< routes
+      allowNull: false,
+// >>>>>>> main
+    },
 
     label: {
-        type: DataTypes.STRING,
-        allowNull: true
-      },
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
 
     length: {
-        type: DataTypes.STRING,
-        allowNull: true
-      },
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
 
     cover: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
 
     amazon_image_link: {
-        type: DataTypes.STRING,
-        allowNull: true
-      },
+// <<<<<<< routes
+      type: DataTypes.STRING,
+
+      type: DataTypes.TEXT,
+// >>>>>>> main
+      allowNull: true,
+    },
 
     amazon_link: {
-        type: DataTypes.STRING,
-        allowNull: true
-      },
+// <<<<<<< routes
+      type: DataTypes.STRING,
+
+      type: DataTypes.TEXT,
+// >>>>>>> main
+      allowNull: true,
+    },
 
     spotify_embed: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
+// <<<<<<< routes
+      type: DataTypes.STRING,
+
+      type: DataTypes.TEXT,
+// >>>>>>> main
+      allowNull: false,
+    },
 
     likes: {
-       type: DataTypes.INTEGER,
-       default: 0
-      },
+      type: DataTypes.INTEGER,
+      default: 0,
+    },
 
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Tag',
-        key: 'id',
-        unique: false
+        model: "tag",
+        key: "id",
+        unique: false,
       },
-
     },
     genre_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Genre',
-        key: 'id',
+        model: "genre",
+        key: "id",
         unique: false,
+      },
+    },
+    playlist_album_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "playlist",
+        key: "id",
       },
     },
   },
@@ -89,8 +109,8 @@ album.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'album',
+    modelName: "album",
   }
 );
 
-module.exports = album;
+module.exports = Album;

@@ -1,8 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
-class subgenre extends Model {}
-subgenre.init(
+
+class Subgenre extends Model {}
+
+Subgenre.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -28,6 +30,7 @@ subgenre.init(
                 unique: false
             }   
         }
+        
     },
     {
         sequelize,
@@ -37,4 +40,5 @@ subgenre.init(
         modelName: 'subgenre',
     }
 );
-module.exports = subgenre;
+
+module.exports = Subgenre;

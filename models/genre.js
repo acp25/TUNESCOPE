@@ -1,3 +1,4 @@
+  
 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
@@ -18,6 +19,7 @@ genre.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        
     },
    {
     sequelize,
@@ -28,4 +30,4 @@ genre.init(
   }
 );
 
-module.exports = genre;
+module.exports = Genre;
