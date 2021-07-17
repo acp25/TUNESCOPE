@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Album, Genre } = require("../models");
+const { Album, Genre } = require("../../models");
 
 router.get("/", async (req, res) => {
   try {
@@ -17,5 +17,10 @@ router.get("/", async (req, res) => {
     res.status(500).json(error);
   }
 });
+
+
+
+
+
 
 module.exports = router;

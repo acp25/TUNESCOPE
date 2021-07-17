@@ -28,9 +28,7 @@ Album.init(
 
     released: {
       type: DataTypes.STRING,
-// <<<<<<< routes
       allowNull: true,
-// >>>>>>> main
     },
 
     label: {
@@ -77,14 +75,14 @@ Album.init(
       default: 0,
     },
 
-    // tag_id: {
-    //   type: DataTypes.INTEGER,
-    //   references: {
-    //     model: "tag",
-    //     key: "id",
-    //     unique: false,
-    //   },
-    // },
+    tag_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "tag",
+        key: "id",
+        unique: false,
+      },
+    },
     genre_id: {
       type: DataTypes.INTEGER,
       references: {
