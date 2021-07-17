@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
-const exphbs = require('express-handlebars');
+const handlebars = require('express-handlebars');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -24,15 +24,20 @@ app.use(session(sess));
 
 const helpers = require('./utils/helpers');
 
-const hbs = exphbs.create({ helpers });
+// const hbs = exphbs.create({ helpers });
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 // serve up files in the 'public' folder
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.engine('handlebars', handlebars({
+  layoutsDir: `${__dirname}/views/layouts`,
+  defaultLayout: 'main',
+  partialsDir: `${__dirname}/views/partials`
+}));
+app.set('view engine', 'handlebars');
 
 const routes = require('./controllers');
 
