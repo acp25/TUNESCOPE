@@ -49,16 +49,13 @@ Album.init(
     },
 
     amazon_image_link: {
-// <<<<<<< routes
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
-// >>>>>>> main
       allowNull: true,
     },
 
     amazon_link: {
-// <<<<<<< routes
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
@@ -80,14 +77,14 @@ Album.init(
       default: 0,
     },
 
-    tag_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "tag",
-        key: "id",
-        unique: false,
-      },
-    },
+    // tag_id: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: "tag",
+    //     key: "id",
+    //     unique: false,
+    //   },
+    // },
     genre_id: {
       type: DataTypes.INTEGER,
       references: {
