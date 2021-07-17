@@ -4,9 +4,9 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
-class Genre extends Model {}
+class genre extends Model {}
 
-Genre.init(
+genre.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -24,8 +24,8 @@ Genre.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Genre',
+    modelName: 'genre',
   }
 );
 
-module.exports = Genre;
+module.exports = genre;

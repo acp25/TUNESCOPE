@@ -3,11 +3,11 @@ const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
 
-// Initialize Product model (table) by extending off Sequelize's Model class
-class Album extends Model {}
+// Initialize Album model (table) by extending off Sequelize's Model class
+class album extends Model {}
 
 // set up fields and rules for Album model
-Album.init(
+album.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -89,8 +89,8 @@ Album.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Album',
+    modelName: 'album',
   }
 );
 
-module.exports = Album;
+module.exports = album;

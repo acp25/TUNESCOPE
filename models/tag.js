@@ -4,9 +4,9 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // Initialize Tag model (table) by extending off Sequelize's Model class
-class Tag extends Model {}
+class tag extends Model {}
 
-Tag.init(
+tag.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -24,8 +24,8 @@ Tag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Tag',
+    modelName: 'tag',
   }
 );
 
-module.exports = Tag;
+module.exports = tag;
