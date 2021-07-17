@@ -4,10 +4,10 @@ const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
 // Initialize Album model (table) by extending off Sequelize's Model class
-class album extends Model {}
+class Album extends Model {}
 
 // set up fields and rules for Album model
-album.init(
+Album.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -62,16 +62,16 @@ album.init(
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
-// >>>>>>> main
+
       allowNull: true,
     },
 
     spotify_embed: {
-// <<<<<<< routes
+
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
-// >>>>>>> main
+
       allowNull: false,
     },
 

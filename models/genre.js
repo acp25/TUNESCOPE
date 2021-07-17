@@ -5,9 +5,9 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
-class genre extends Model {}
+class Genre extends Model {}
 
-genre.init(
+Genre.init(
     {
         id: {
             type: DataTypes.INTEGER,
