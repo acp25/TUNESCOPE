@@ -42,7 +42,7 @@ User.init(
             type: DataTypes.INTEGER,
             allowNull: true,
             references: {
-                model: "Playlist",
+                model: "playlist",
                 key: "id"
             },
             
@@ -64,7 +64,7 @@ User.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'User',
+        modelName: 'user',
     }
     );
     
