@@ -2,6 +2,7 @@ const sequelize = require("../config/connection");
 const { Album } = require("../models");
 const albumData = require('./albumdata.json');
 
+// <<<<<<< routes
 const seedAlbums = async () => {
   
   await sequelize.sync({ force: true });
@@ -13,3 +14,10 @@ const seedAlbums = async () => {
 };
 
 seedAlbums();
+
+const seedAlbms = async () =>  {
+  await sequelize.sync({force: true})
+  await Album.bulkCreate(albumData)}
+  
+module.exports = seedAlbums;
+// >>>>>>> main
