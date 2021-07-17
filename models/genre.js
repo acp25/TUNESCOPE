@@ -1,3 +1,4 @@
+  
 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
@@ -18,13 +19,14 @@ Genre.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        
     },
    {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Genre',
+    modelName: 'genre',
   }
 );
 
