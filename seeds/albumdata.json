@@ -13,87 +13,15 @@
       
     },
     {
-        "album_name":"Wish You Were Here",
-        "artist_name":"Pink Floyd",
-        "released":"12/09/1975",
-        "label":"Harvest",
-        "length":"44:11",
-        "cover":"Pink_Floyd,_Wish_You_Were_Here_(1975).png",
-        "amazon_image_link":"<a target=\"_blank\"  href=\"https://www.amazon.com/gp/product/B019HKJW4S/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HKJW4S&linkCode=as2&tag=tunescope-20&linkId=8e3d875d10506b03a9155f8a93b68adb\"><img border=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B019HKJW4S&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tunescope-20\" ></a>",
-        "amazon_link":"<iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=tunescope-20&marketplace=amazon&amp;region=US&placement=B00536OCZK&asins=B00536OCZK&linkId=9bac490cc9e011a8ad999ba582ca2e6e&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=000000&bg_color=ffffff\"></iframe>",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0bCAjiUamIFqKJsekOYuRw?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"The Wall",
-        "artist_name":"Pink Floyd",
-        "released":"30/11/1979",
-        "label":"Harvest/Columbia",
-        "length":"81:08",
-        "cover":"PinkFloydWallCoverOriginalNoText-2.jpg",
-        "amazon_image_link":"<a target=\"_blank\"  href=\"https://www.amazon.com/gp/product/B019HKKVDE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HKKVDE&linkCode=as2&tag=tunescope-20&linkId=d7ca28e011827a02ea779e540ad8be73\"><img border=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B019HKKVDE&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tunescope-20\" ></a>",
-        "amazon_link":"<iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=tunescope-20&marketplace=amazon&amp;region=US&placement=B00536OCYG&asins=B00536OCYG&linkId=2e54548ac0f121b397f8a92c06725191&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=000000&bg_color=ffffff\"></iframe>",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5Dbax7G8SWrP9xyzkOvy2F?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Led Zeppelin",
-        "artist_name":"Led Zeppelin",
-        "released":"12/01/1969",
-        "label":"Atlantic",
-        "length":"44:56",
-        "cover":"Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png",
+        "album_name":"Tubular Bells",
+        "artist_name":"Mike Oldfield",
+        "released":"25/05/1973",
+        "label":"Virgin",
+        "length":"49:16",
+        "cover":"Mike_oldfield_tubular_bells_album_cover.jpg",
         "amazon_image_link":"",
         "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5Dbax7G8SWrP9xyzkOvy2F?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Led Zeppelin II",
-        "artist_name":"Led Zeppelin",
-        "released":"22/10/1969",
-        "label":"Atlantic",
-        "length":"41:38",
-        "cover":"Led_Zeppelin_-_Led_Zeppelin_II.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/58MQ0PLijVHePUonQlK76Y?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Led Zeppelin III",
-        "artist_name":"Led Zeppelin",
-        "released":"05/10/1970",
-        "label":"Atlantic",
-        "length":"43:04",
-        "cover":"Led_Zeppelin_-_Led_Zeppelin_III.png",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6P5QHz4XtxOmS5EuiGIPut?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Led Zeppelin IV",
-        "artist_name":"Led Zeppelin",
-        "released":"08/11/1971",
-        "label":"Atlantic",
-        "length":"42:34",
-        "cover":"zeppelin_IV.png",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5EyIDBAqhnlkAHqvPRwdbX?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Houses of the Holy",
-        "artist_name":"Led Zeppelin",
-        "released":"28/03/1973",
-        "label":"Atlantic",
-        "length":"42:34",
-        "cover":"Led_Zeppelin_-_Houses_of_the_Holy.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0GqpoHJREPp0iuXK3HzrHk?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0a3YQpBnRzJzNktOjb6Dum?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":1
     },
     {
@@ -109,30 +37,6 @@
         "genre_id":1
     },
     {
-        "album_name":"Appetite for Destruction",
-        "artist_name":"Guns N' Roses",
-        "released":"21/07/1987",
-        "label":"Geffen",
-        "length":"53:52",
-        "cover":"GunsnRosesAppetiteforDestructionalbumcover.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/28yHV3Gdg30AiB8h8em1eW?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Audioslave",
-        "artist_name":"Audioslave",
-        "released":"18/11/2002",
-        "label":"Epic/Interscope",
-        "length":"65:26",
-        "cover":"Audioslave_-_Audioslave.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/78guAsers0klWl6RwzgDLd?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
         "album_name":"New Levels New Devils",
         "artist_name":"Polyphia",
         "released":"12/10/2018",
@@ -142,18 +46,6 @@
         "amazon_image_link":"",
         "amazon_link":"",
         "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/7GhytR6ZMWetf1jxAzITtG?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Back in Black",
-        "artist_name":"AC/DC",
-        "released":"25/07/1980",
-        "label":"Albert/Atlantic",
-        "length":"42:11",
-        "cover":"440px-ACDC_Back_in_Black.png",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6mUdeDZCsExyJLMdAfDuwh?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":1
     },
     {
@@ -169,15 +61,15 @@
         "genre_id":1
     },
     {
-        "album_name":"Revolver",
-        "artist_name":"The Beatles",
-        "released":"05/08/1966",
-        "label":"Parlaphone",
-        "length":"35:01",
-        "cover":"Revolver_(album_cover).jpg",
+        "album_name":"Daddy's Home",
+        "artist_name":"St. Vincent",
+        "released":"14/05/2021",
+        "label":"Loma Vista",
+        "length":"43:09",
+        "cover":"St._Vincent_-_Daddy's_Home.png",
         "amazon_image_link":"",
         "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/3PRoXYsngSwjEQWR5PsHWR?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/654KFpNOZ26Hj9luu7aKeM?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":1
     },
     {
@@ -193,51 +85,15 @@
         "genre_id":1
     },
     {
-        "album_name":"Sgt. Pepper's Lonely Hearts Club Band",
-        "artist_name":"The Beatles",
-        "released":"26/05/1967",
-        "label":"Parlaphone",
-        "length":"39:36",
-        "cover":"Sgt._Pepper's_Lonely_Hearts_Club_Band.jpg",
+        "album_name":"Led Zeppelin II",
+        "artist_name":"Led Zeppelin",
+        "released":"22/10/1969",
+        "label":"Atlantic",
+        "length":"41:38",
+        "cover":"Led_Zeppelin_-_Led_Zeppelin_II.jpg",
         "amazon_image_link":"",
         "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6QaVfG1pHYl1z15ZxkvVDW?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Abbey Road",
-        "artist_name":"The Beatles",
-        "released":"26/09/1969",
-        "label":"Apple",
-        "length":"47:03",
-        "cover":"Beatles_-_Abbey_Road.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0ETFjACtuP2ADo6LFhL6HN?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Daddy's Home",
-        "artist_name":"St. Vincent",
-        "released":"14/05/2021",
-        "label":"Loma Vista",
-        "length":"43:09",
-        "cover":"St._Vincent_-_Daddy's_Home.png",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/654KFpNOZ26Hj9luu7aKeM?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":1
-    },
-    {
-        "album_name":"Tubular Bells",
-        "artist_name":"Mike Oldfield",
-        "released":"25/05/1973",
-        "label":"Virgin",
-        "length":"49:16",
-        "cover":"Mike_oldfield_tubular_bells_album_cover.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0a3YQpBnRzJzNktOjb6Dum?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/58MQ0PLijVHePUonQlK76Y?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":1
     },
     {
@@ -253,6 +109,152 @@
         "genre_id":1
     },
     {
+        "album_name":"Houses of the Holy",
+        "artist_name":"Led Zeppelin",
+        "released":"28/03/1973",
+        "label":"Atlantic",
+        "length":"42:34",
+        "cover":"Led_Zeppelin_-_Houses_of_the_Holy.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0GqpoHJREPp0iuXK3HzrHk?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Appetite for Destruction",
+        "artist_name":"Guns N' Roses",
+        "released":"21/07/1987",
+        "label":"Geffen",
+        "length":"53:52",
+        "cover":"GunsnRosesAppetiteforDestructionalbumcover.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/28yHV3Gdg30AiB8h8em1eW?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Led Zeppelin III",
+        "artist_name":"Led Zeppelin",
+        "released":"05/10/1970",
+        "label":"Atlantic",
+        "length":"43:04",
+        "cover":"Led_Zeppelin_-_Led_Zeppelin_III.png",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6P5QHz4XtxOmS5EuiGIPut?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"The Wall",
+        "artist_name":"Pink Floyd",
+        "released":"30/11/1979",
+        "label":"Harvest/Columbia",
+        "length":"81:08",
+        "cover":"PinkFloydWallCoverOriginalNoText-2.jpg",
+        "amazon_image_link":"<a target=\"_blank\"  href=\"https://www.amazon.com/gp/product/B019HKKVDE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HKKVDE&linkCode=as2&tag=tunescope-20&linkId=d7ca28e011827a02ea779e540ad8be73\"><img border=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B019HKKVDE&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tunescope-20\" ></a>",
+        "amazon_link":"<iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=tunescope-20&marketplace=amazon&amp;region=US&placement=B00536OCYG&asins=B00536OCYG&linkId=2e54548ac0f121b397f8a92c06725191&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=000000&bg_color=ffffff\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5Dbax7G8SWrP9xyzkOvy2F?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Audioslave",
+        "artist_name":"Audioslave",
+        "released":"18/11/2002",
+        "label":"Epic/Interscope",
+        "length":"65:26",
+        "cover":"Audioslave_-_Audioslave.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/78guAsers0klWl6RwzgDLd?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+ 
+    {
+        "album_name":"Led Zeppelin IV",
+        "artist_name":"Led Zeppelin",
+        "released":"08/11/1971",
+        "label":"Atlantic",
+        "length":"42:34",
+        "cover":"zeppelin_IV.png",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5EyIDBAqhnlkAHqvPRwdbX?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Sgt. Pepper's Lonely Hearts Club Band",
+        "artist_name":"The Beatles",
+        "released":"26/05/1967",
+        "label":"Parlaphone",
+        "length":"39:36",
+        "cover":"Sgt._Pepper's_Lonely_Hearts_Club_Band.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6QaVfG1pHYl1z15ZxkvVDW?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Back in Black",
+        "artist_name":"AC/DC",
+        "released":"25/07/1980",
+        "label":"Albert/Atlantic",
+        "length":"42:11",
+        "cover":"440px-ACDC_Back_in_Black.png",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6mUdeDZCsExyJLMdAfDuwh?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+ 
+    {
+        "album_name":"Wish You Were Here",
+        "artist_name":"Pink Floyd",
+        "released":"12/09/1975",
+        "label":"Harvest",
+        "length":"44:11",
+        "cover":"Pink_Floyd,_Wish_You_Were_Here_(1975).png",
+        "amazon_image_link":"<a target=\"_blank\"  href=\"https://www.amazon.com/gp/product/B019HKJW4S/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HKJW4S&linkCode=as2&tag=tunescope-20&linkId=8e3d875d10506b03a9155f8a93b68adb\"><img border=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B019HKJW4S&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tunescope-20\" ></a>",
+        "amazon_link":"<iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=tunescope-20&marketplace=amazon&amp;region=US&placement=B00536OCZK&asins=B00536OCZK&linkId=9bac490cc9e011a8ad999ba582ca2e6e&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=000000&bg_color=ffffff\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0bCAjiUamIFqKJsekOYuRw?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Revolver",
+        "artist_name":"The Beatles",
+        "released":"05/08/1966",
+        "label":"Parlaphone",
+        "length":"35:01",
+        "cover":"Revolver_(album_cover).jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/3PRoXYsngSwjEQWR5PsHWR?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Abbey Road",
+        "artist_name":"The Beatles",
+        "released":"26/09/1969",
+        "label":"Apple",
+        "length":"47:03",
+        "cover":"Beatles_-_Abbey_Road.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/0ETFjACtuP2ADo6LFhL6HN?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
+        "album_name":"Led Zeppelin",
+        "artist_name":"Led Zeppelin",
+        "released":"12/01/1969",
+        "label":"Atlantic",
+        "length":"44:56",
+        "cover":"Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5Dbax7G8SWrP9xyzkOvy2F?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":1
+    },
+    {
         "album_name":"Infest the Rat's Nest",
         "artist_name":"King Gizzard & the Lizard Wizard",
         "released":"16/08/2019",
@@ -262,18 +264,6 @@
         "amazon_image_link":"",
         "amazon_link":"",
         "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5Bz2LxOp0wz7ov0T9WiRmc?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":2
-    },
-    {
-        "album_name":"Master of Puppets",
-        "artist_name":"Metallica",
-        "released":"03/03/1986",
-        "label":"Elekra",
-        "length":"54:47",
-        "cover":"Metallica_-_Master_of_Puppets_cover.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5gzLOflH95LkKYE6XSXE9k?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":2
     },
     {
@@ -289,15 +279,15 @@
         "genre_id":2
     },
     {
-        "album_name":"Ride The Lightning",
-        "artist_name":"Metallica",
-        "released":"27/07/1984",
-        "label":"Megaforce",
-        "length":"47:25",
-        "cover":"Ridetl.png",
+        "album_name":"Paranoid",
+        "artist_name":"Black Sabbath",
+        "released":"18/09/1970",
+        "label":"Vertigo/Warner Bros.",
+        "length":"41:51",
+        "cover":"Black_Sabbath_-_Paranoid.jpg",
         "amazon_image_link":"",
         "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/1nTvIQEXvygqSIqc2vuwAz?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6r7LZXAVueS5DqdrvXJJK7?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":2
     },
     {
@@ -313,6 +303,18 @@
         "genre_id":2
     },
     {
+        "album_name":"Ride The Lightning",
+        "artist_name":"Metallica",
+        "released":"27/07/1984",
+        "label":"Megaforce",
+        "length":"47:25",
+        "cover":"Ridetl.png",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/1nTvIQEXvygqSIqc2vuwAz?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":2
+    },
+    {
         "album_name":"Reign in Blood",
         "artist_name":"Slayer",
         "released":"07/10/1986",
@@ -325,6 +327,18 @@
         "genre_id":2
     },
     {
+        "album_name":"Master of Puppets",
+        "artist_name":"Metallica",
+        "released":"03/03/1986",
+        "label":"Elekra",
+        "length":"54:47",
+        "cover":"Metallica_-_Master_of_Puppets_cover.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/5gzLOflH95LkKYE6XSXE9k?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":2
+    },
+    {
         "album_name":"The Number of the Beast",
         "artist_name":"Iron Maiden",
         "released":"22/03/1982",
@@ -334,18 +348,6 @@
         "amazon_image_link":"",
         "amazon_link":"",
         "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/33d72N71hl9bXwT4zAcqUy?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":2
-    },
-    {
-        "album_name":"Paranoid",
-        "artist_name":"Black Sabbath",
-        "released":"18/09/1970",
-        "label":"Vertigo/Warner Bros.",
-        "length":"41:51",
-        "cover":"Black_Sabbath_-_Paranoid.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6r7LZXAVueS5DqdrvXJJK7?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":2
     },
     {
@@ -385,6 +387,18 @@
         "genre_id":3
     },
     {
+        "album_name":"The Slow Rush",
+        "artist_name":"Tame Impala",
+        "released":"14/02/2020",
+        "label":"Modular/Island Australia/Interscope",
+        "length":"57:16",
+        "cover":"Tame_Impala_-_The_Slow_Rush-2.png",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/31qVWUdRrlb8thMvts0yYL?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":3
+    },
+    {
         "album_name":"Plastic Hearts",
         "artist_name":"Miley Cyrus",
         "released":"27/11/2020",
@@ -397,15 +411,15 @@
         "genre_id":3
     },
     {
-        "album_name":"Sour",
-        "artist_name":"Olivia Rodrigo",
-        "released":"21/05/2021",
-        "label":"Geffen",
-        "length":"34:41",
-        "cover":"Olivia_Rodrigo_-_SOUR.png",
+        "album_name":"Pretty. Odd.",
+        "artist_name":"Panic! At The Disco",
+        "released":"21/03/2008",
+        "label":"Decaydance/Fueled by Ramen",
+        "length":"48:46",
+        "cover":"PatD_-_Pretty._Odd..jpg",
         "amazon_image_link":"",
         "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6s84u2TUpR3wdUv4NgKA2j?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/7Hk9WbjPbN1n2GXaK7aldw?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":3
     },
     {
@@ -444,18 +458,7 @@
         "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/4B2pV5Zds6478QOqA8yqdj?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":3
     },
-    {
-        "album_name":"The Slow Rush",
-        "artist_name":"Tame Impala",
-        "released":"14/02/2020",
-        "label":"Modular/Island Australia/Interscope",
-        "length":"57:16",
-        "cover":"Tame_Impala_-_The_Slow_Rush-2.png",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/31qVWUdRrlb8thMvts0yYL?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":3
-    },
+
     {
         "album_name":"Curents",
         "artist_name":"Tame Impala",
@@ -469,15 +472,15 @@
         "genre_id":3
     },
     {
-        "album_name":"Pretty. Odd.",
-        "artist_name":"Panic! At The Disco",
-        "released":"21/03/2008",
-        "label":"Decaydance/Fueled by Ramen",
-        "length":"48:46",
-        "cover":"PatD_-_Pretty._Odd..jpg",
+        "album_name":"Sour",
+        "artist_name":"Olivia Rodrigo",
+        "released":"21/05/2021",
+        "label":"Geffen",
+        "length":"34:41",
+        "cover":"Olivia_Rodrigo_-_SOUR.png",
         "amazon_image_link":"",
         "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/7Hk9WbjPbN1n2GXaK7aldw?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/6s84u2TUpR3wdUv4NgKA2j?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":3
     },
     {
@@ -853,6 +856,18 @@
         "genre_id":6
     },
     {
+        "album_name":"Star Wars: Episode IV: A New Hope",
+        "artist_name":"John Williams",
+        "released":"00/06/1977",
+        "label":"20th Century",
+        "length":"74:58",
+        "cover":"440px-StarWarsOST.jpg",
+        "amazon_image_link":"",
+        "amazon_link":"",
+        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/55gMu4AvAKCbCaGv3GIXgy?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+        "genre_id":7
+    },
+    {
         "album_name":"The Planets",
         "artist_name":"Gustav Holst",
         "released":"29/09/1918",
@@ -891,18 +906,6 @@
         "amazon_image_link":"",
         "amazon_link":"",
         "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/7sujQr6ZaHuOcYunWilBB0?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-        "genre_id":7
-    },
-    {
-        "album_name":"Star Wars: Episode IV: A New Hope",
-        "artist_name":"John Williams",
-        "released":"00/06/1977",
-        "label":"20th Century",
-        "length":"74:58",
-        "cover":"440px-StarWarsOST.jpg",
-        "amazon_image_link":"",
-        "amazon_link":"",
-        "spotify_embed":"<iframe src=\"https://open.spotify.com/embed/album/55gMu4AvAKCbCaGv3GIXgy?theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
         "genre_id":7
     },
     {
