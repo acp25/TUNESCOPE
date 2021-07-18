@@ -3,6 +3,7 @@ const seedAlbums = require('./album-seeds');
 const seedGenres = require('./genre-seeds');
 const seedPlaylist = require('./playlist-seed');
 const seedUsers = require('./user-seeds');
+const seedComments = require('./comment-seed');
 
 const seedAll = async () => {
     await sequelize.sync({force: true})
@@ -15,6 +16,8 @@ const seedAll = async () => {
     console.log("\n-------------GENRES SEEDED-------------\n");
     await seedAlbums();
     console.log("\n-------------ALBUMS SEEDED-------------\n");
+    await seedComments();
+    console.log("\n-------------Comments SEEDED-------------\n");
     process.exit(0);
 }
 
