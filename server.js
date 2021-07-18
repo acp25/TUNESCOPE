@@ -16,27 +16,23 @@ const sess = {
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
-      db: sequelize,
+      db: sequelize
     }),
   };
 
 app.use(session(sess));
-
+app.use(express.static(path.join(__dirname, 'public')));
 const helpers = require('./utils/helpers');
 
-// const hbs = exphbs.create({ helpers });
+const hbs = handlebars.create({ helpers });
 
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 // serve up files in the 'public' folder
-app.use(express.static(path.join(__dirname, 'public')));
 
-app.engine('handlebars', handlebars({
-  layoutsDir: `${__dirname}/views/layouts`,
-  defaultLayout: 'main',
-  partialsDir: `${__dirname}/views/partials`
-}));
+
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 const routes = require('./controllers');

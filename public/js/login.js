@@ -1,72 +1,30 @@
-async function loginFormHandler(event) {
-    event.preventDefault();
+console.log("connected");
+const loginFormHandler = async (event) => {
+  console.log("connected");
+  event.preventDefault();
 
-    const email = document.querySelector('#email-login').value.trim();
-    const password = document.querySelector('#password-login').value.trim();
+  const username = document.getElementById("username-login").value.trim();
+  const password = document.getElementById("password-login").value.trim();
 
-    if (email && password) {
-        const response = await fetch('/api/users/login', {
-            method: 'post',
-            body: JSON.stringify({
-                email,
-                password
-            }),
-            headers: { 'Content-Type': 'application/json' }
-        });
-
-        if (response.ok) {
-            document.location.replace('/dashboard/');
-        } else {
-            alert(response.statusText);
-        }
+  if (username && password) {
+    console.log(username);
+    console.log(password);
+    const response = await fetch("/api/login", {
+      method: "POST",
+      body: JSON.stringify({ username, password }),
+      headers: { "Content-Type": "application/json" },
+    });
+    if (response.ok) {
+      // If successful, redirect the browser to the profile page
+      console.log("response is ok");
+      document.location.replace("/about");
+    } else {
+      alert(response.statusText);
+      console.log("er");
     }
-}
-
-async function signupFormHandler(event) {
-    event.preventDefault();
-
-    const username = document.querySelector('#username-signup').value.trim();
-    const email = document.querySelector('#email-signup').value.trim();
-    const password = document.querySelector('#password-signup').value.trim();
-
-    if (username && email && password) {
-        const response = await fetch('/api/users', {
-            method: 'post',
-            body: JSON.stringify({
-                username,
-                email,
-                password
-            }),
-            headers: { 'Content-Type': 'application/json' }
-        });
-
-        // check the response status
-        if (response.ok) {
-            document.location.replace('/dashboard/');
-
-        }
-        else {
-            alert(response.statusText);
-        };
-    };
+  }
 };
 
-function signupDisplayHandler() {
-    var loginForm = document.getElementById("signup");
-    loginForm.style.display = "inline";
-    var loginForm = document.getElementById("login");
-    loginForm.style.display = "none";
-}
-
-function loginDisplayHandler() {
-    var loginForm = document.getElementById("signup");
-    loginForm.style.display = "none";
-    var loginForm = document.getElementById("login");
-    loginForm.style.display = "inline";
-}
-
-document.querySelector('#signup-link').addEventListener('click', signupDisplayHandler);
-document.querySelector('#login-link').addEventListener('click', loginDisplayHandler);
-
-document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
-document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
+document
+  .getElementById("loginInBtn")
+  .addEventListener("submit", loginFormHandler);
