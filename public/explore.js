@@ -13,6 +13,8 @@ const songlistEl = document.getElementById("songlist");
 const closeViewAlbumBtn = document.getElementById("closeViewAblum");
 const albumrowParentEl = document.getElementById("album_row_wrapper");
 const viewAlbumParentEl = document.getElementById("popup_container");
+const commentEl = document.getElementById('album-comments');
+
 function getRock() {
     var apiUrl = "/api/albums/rock";
     console.log(apiUrl);
@@ -27,10 +29,17 @@ function getRock() {
             rockAlbumimg.src = `./images/${data[i].cover}`;
             rockAlbumimg.className = "albumArt";
             rockAlbumimg.addEventListener("click", () => {
+                commentEl.innerHTML = '';
                 albumrowParentEl.style.display = "none";
                 viewAlbumParentEl.style.display = "block";
                 viewAlbumImg.src = `./images/${data[i].cover}`;
                 songlistEl.innerHTML = data[i].spotify_embed;
+                let theseComments = data[i];
+                for(let i = 0; i < theseComments.comments.length; i++) {
+                    let userComment = document.createElement('p');
+                    userComment.textContent = theseComments.comments[i].comment_text;
+                    commentEl.appendChild(userComment);
+                }
             });
             rockRow.appendChild(rockAlbumimg);
         }
