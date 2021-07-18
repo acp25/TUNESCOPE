@@ -16,4 +16,13 @@ router.get("/signup", async (req, res) => {
   }
 });
 
+router.get("/explore", async (req, res) => {
+    try {
+      res.render('explore', {layout: 'main'});
+    } catch (error) {
+      res.status(500).json(error);
+    }
+  });
+  
+
 module.exports = router;
