@@ -1,76 +1,52 @@
-<div id="rock">
-    <h2>Rock</h2>
-    <div class="container-fluid">
-        {{#each album as |rock| }}
+<style>
+  .album-row img {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(92, 92, 92);
+    margin: 3px;
+  };
 
-      <div class="card" style="width: 18rem;">
-    <img src="{{cover}}" class="card-img-top" alt="{{album_name}}">
-    <div class="card-body" >
-      <p class="card-text">{{album_name}}</p>
-       </div>
-      </div>
-      {{/each}}
-    </div>
+</style>
+
+
+<h2>Rock</h2>
+<div id="rock" class="album-row">
+
 </div>
 
-<div id="metal">
-    <h2>Metal</h2>
-        <div class="container-fluid">
-      <div class="card" style="width: 18rem;">
-    <img src="/images/Skrillex_-_Bangarang_(EP).png" class="card-img-top" alt="black sabbath">
-    <div class="card-body" >
-      <p class="card-text">Black Sabbath</p>
-       </div>
-      </div>
-    </div>
+<h2>Metal</h2>
+<div id="metal" class="album-row">
+   
 </div>
 
-<div id="pop">
-    <h2>Pop</h2>
-        <div class="container-fluid">
-        {{#each album as |pop| }}
-
-      <div class="card" style="width: 18rem;">
-    <img src="{{cover}}" class="card-img-top" alt="{{album_name}}">
-    <div class="card-body" >
-      <p class="card-text">{{album_name}}</p>
-       </div>
-      </div>
-      {{/each}}
-    </div>
+<h2>Pop</h2>
+<div id="pop" class="album-row">
+    
 </div>
 
-<div id="electronic">
-    <h2>Electronic</h2>
-            <div class="container-fluid">
-        {{#each album as |electronic| }}
+<h2>Electronic</h2>
+<div id="electronic" class="album-row">
 
-      <div class="card" style="width: 18rem;">
-    <img src="{{cover}}" class="card-img-top" alt="{{album_name}}">
-    <div class="card-body" >
-      <p class="card-text">{{album_name}}</p>
-       </div>
-      </div>
-      {{/each}}
-    </div>
 </div>
 
-<div id="blues">
-    <h2>R&B/Blues/Soul</h2>
+<h2>R&B/Blues/Soul</h2>
+<div id="blues" class="album-row">
 </div>
 
-<div id="jazz">
-    <h2>Jazz</h2>
+<h2>Jazz</h2>
+<div id="jazz" class="album-row">
 </div>
 
-<div id="classical">
-    <h2>Classical/Film</h2>
+<h2>Classical/Film</h2>
+<div id="classical" class="album-row">
 </div>
 
-<div id="country">
-    <h2>Country</h2>
+<h2>Country</h2>
+<div id="country" class="album-row">
 </div>
 
-<div id="rap">
-    <h2>Rap/Hip-Hop</h2>
+<h2>Rap/Hip-Hop</h2>
+<div id="rap" class="album-row">
 </div>
+
+<script src="./explore.js"></script>

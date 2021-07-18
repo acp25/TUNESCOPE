@@ -21,3 +21,4 @@ router.get("/rock", async (req, res) => {
     }
   });
   
+  module.exports = router;
