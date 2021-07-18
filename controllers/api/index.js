@@ -1,6 +1,8 @@
 const router = require('express').Router();
-const userRoutes = require('./userroutes');
+const albumRoutes = require('./albumroutes');
+const playlistRoutes = require('./playlistroutes');
 
-router.use('/login', userRoutes);
+router.use('/playlists', playlistRoutes);
+router.use('/albums', albumRoutes);
 
 module.exports = router;

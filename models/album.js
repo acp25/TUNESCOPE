@@ -3,7 +3,7 @@ const { Model, DataTypes } = require("sequelize");
 // import our database connection from config.js
 const sequelize = require("../config/connection");
 
-// Initialize Product model (table) by extending off Sequelize's Model class
+// Initialize Album model (table) by extending off Sequelize's Model class
 class Album extends Model {}
 
 // set up fields and rules for Album model
@@ -28,9 +28,7 @@ Album.init(
 
     released: {
       type: DataTypes.STRING,
-// <<<<<<< routes
       allowNull: true,
-// >>>>>>> main
     },
 
     label: {
@@ -49,29 +47,26 @@ Album.init(
     },
 
     amazon_image_link: {
-// <<<<<<< routes
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
-// >>>>>>> main
       allowNull: true,
     },
 
     amazon_link: {
-// <<<<<<< routes
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
-// >>>>>>> main
+
       allowNull: true,
     },
 
     spotify_embed: {
-// <<<<<<< routes
+
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
-// >>>>>>> main
+
       allowNull: false,
     },
 

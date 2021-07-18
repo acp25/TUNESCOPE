@@ -11,12 +11,10 @@ const Subgenre = require('./subgenre');
 Album.hasMany(User, {
     foreign_key: 'playlist_id'
 });
-
 //User hasOne Playlist
 User.belongsTo(Album, {
     foreign_key: 'playlist_id'
 });
-
 //Playlist hasMany Albums
 
 // Playlist.hasMany(Album, {
@@ -32,17 +30,13 @@ User.belongsTo(Album, {
 // });
 
 //Album has one genre
-
 Genre.hasMany(Album, {
     foreign_key: 'genre_id',
 });
-
 //Genre belongs to many albums
-
 Album.belongsTo(Genre, {
     foreign_key: 'genre_id'
 });
-
 //Album has many comments
 Album.hasMany(Comment, {
     foreign_key: 'album_id'
@@ -55,25 +49,19 @@ Comment.belongsTo(Album, {
 User.hasMany(Comment, {
     foreign_key: 'user_id'
 });
-
 //comment has one user
-
 Comment.belongsTo(User, {
     foreign_key: "user_id"
 });
-
 //Album has many tags
-
 Album.belongsToMany(Tag, {
     foreign_key: 'album_id',
     through: Subgenre
 });
-
 Tag.belongsToMany(Album, {
     foreign_key: 'tag_id',
     through: Subgenre
 });
-
 module.exports = {
     User,
     Album,
