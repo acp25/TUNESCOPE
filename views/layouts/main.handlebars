@@ -6,11 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>| TUNESCOPE |</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
 
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #333131;
+    }
+
+    .navbar {
+        background-color: white!important;
+    }
+
+    .navbar-brand {
+   
+       
+    }
+    .navbar-brand h1 {
+         color: black;
+    }
+    .jumbrotron {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 700px;
+    }
+    .jumbrotron-text h2 {
+   
+        font-size: 52px;
+        position: relative;
+        bottom: 100px;
+        color: white;
+    }
+    #login {
+        position: relative;
+        top: 80px;
+    }
+    .login-field {
+        margin: 20px 0;
+    }
+    
+    .card {
+        padding-top: 70px;
+        height: 400px;
+        width: 350px;
+        text-align: center;
+    
+    }
+
+    .card-header {
+        background-color: transparent!important;
+        border-bottom: none!important;
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    #signupBtn {
+        font-size: 10px;
+        margin: 0px 5px;
+        text-decoration: underline;
+    }
+    #loginInBtn {
+        background-color: #793AA7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 4px 12px;
+    }
+    #learnMoreBtn {
+        background-color: transparent!important;
+        padding: 4px 13px;
+        border-radius: 5px;
+        border: solid 3px white;
+        color: white;
+       
+    }
+    #learnMoreBtn a {
+        color: white!important;
+    }
+    #exploreBtn a {
+        color: white!important;
+    
+    }
+    #exploreBtn {
+        background-color: #793AA7!important;
+        padding: 4px 17px;
+        border-radius: 5px;
+        border: solid 3px #793AA7;
+        color: white;
+        position: relative;
+        left: 50px;
+        top: 40px;
+    }
+    .navbar-toggler {
+        background-color: #793AA7;
+    }
+    .about-jumbotron {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+ 
+    }
+    .about-jumbotron p {
+        position: relative;
+        top: 50px;
+        width: 600px;
+        color: white;
+    }
+    .aboutBtn-container {
+        position: relative;
+        top: 100px;
+    }
+    .about-wrapper {
+        position: relative;
+        top: 200px;
+    }
+    .about-wrapper h2 {
+        color: white;
+        position: relative;
+        bottom: 60px;
+        right: 80px;
+        font-size: 60px;
+    }
+    .playlistheader {
+        text-align: right;
+        padding: 20px 40px;
+        color: white;
+    }
+    .playlist-container ol li {
+        color: white;
+    }
     .album-row {
         display: flex;
         padding: 20px;
@@ -27,7 +162,7 @@
 </style>
 <body>
     <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
+        <div class="p-4">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
@@ -39,10 +174,10 @@
                     <a class="nav-link" href="#">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Playlist</a>
+                    <a class="nav-link" href="/playlist">Playlist</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About TUNESCOPE</a>
+                    <a class="nav-link" href="/about">About TUNESCOPE</a>
                 </li>
 
             </ul>
@@ -52,8 +187,7 @@
         <div class="container-fluid">
             <div class="brand">
                 <a class="navbar-brand" href="#">
-                    <img src="../public/img/tunescopelogo.png" alt="TuneScope" width="30" height="24"
-                        class="d-inline-block align-text-top">
+                    <h1>TUNESCOPE</h1>
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,3 +206,4 @@
 </body>
 
 </html>
+

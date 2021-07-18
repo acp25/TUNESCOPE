@@ -1,22 +1,36 @@
-<div class="login-wrapper">
-    <div id="login" class="card">
-        <div class="card-header">Login</div>
-        <div class="card-body">
-            <form class="login-form">
-                <div>
-                    <input type="text" id="email-login" />
-                    <label for="email-login">E-mail:</label>
-                </div>
-                <div>
-                    <input type="password" id="password-login" />
-                    <label for="password-login">Password:</label>
-                </div>
-                <div class="login-buttons">
-                    <button type="submit">Login</button>
-                    <button id="signup-link"><a href="/signup">Signup Instead</a></button>
-                </div>
-            </form>
+<div class="slant">
+</div>
+<div class="jumbrotron">
+    <div class="jumbrotron-text">
+        <h2>Scope Out Your Favorite Album,<br>
+            Then Find the Next One<span><i class="fab fa-itunes-note"></i></span></h2>
+            <div class="jumbotronBtn-container">
+                <button id="learnMoreBtn"><a href="/about">Learn More</a></button>
+                <button id="exploreBtn"><a href="/explore">Explore</a></button>
+            </div>
+    </div>
+    <div class="login-wrapper">
+        <div id="login" class="card">
+            <div class="card-header">Login</div>
+            <div class="card-body">
+                <form class="login-form">
+                    <div>
+                        <input type="text" id="username-login" class="login-field" placeholder="username"/>
+                  
+                    </div>
+                    <div>
+                        <input type="password" id="password-login" class="login-field" placeholder="password"/>
+                        
+                    </div>
+                    <div class="login-buttons">
+                        <a href="/signup" id="signupBtn">Signup Instead</a>
+                        <button type="submit" id="loginInBtn">Enter</button>
+                   </div>
+                </form>
+            </div>
         </div>
     </div>
+
 </div>
-<script src="/js/login.js"></script>
+
+<script src="./js/login.js"></script>
