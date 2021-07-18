@@ -1,1 +1,76 @@
-<h2>This be the explore page</h2>
+<div id="rock">
+    <h2>Rock</h2>
+    <div class="container-fluid">
+        {{#each album as |rock| }}
+
+      <div class="card" style="width: 18rem;">
+    <img src="{{cover}}" class="card-img-top" alt="{{album_name}}">
+    <div class="card-body" >
+      <p class="card-text">{{album_name}}</p>
+       </div>
+      </div>
+      {{/each}}
+    </div>
+</div>
+
+<div id="metal">
+    <h2>Metal</h2>
+        <div class="container-fluid">
+      <div class="card" style="width: 18rem;">
+    <img src="/images/Skrillex_-_Bangarang_(EP).png" class="card-img-top" alt="black sabbath">
+    <div class="card-body" >
+      <p class="card-text">Black Sabbath</p>
+       </div>
+      </div>
+    </div>
+</div>
+
+<div id="pop">
+    <h2>Pop</h2>
+        <div class="container-fluid">
+        {{#each album as |pop| }}
+
+      <div class="card" style="width: 18rem;">
+    <img src="{{cover}}" class="card-img-top" alt="{{album_name}}">
+    <div class="card-body" >
+      <p class="card-text">{{album_name}}</p>
+       </div>
+      </div>
+      {{/each}}
+    </div>
+</div>
+
+<div id="electronic">
+    <h2>Electronic</h2>
+            <div class="container-fluid">
+        {{#each album as |electronic| }}
+
+      <div class="card" style="width: 18rem;">
+    <img src="{{cover}}" class="card-img-top" alt="{{album_name}}">
+    <div class="card-body" >
+      <p class="card-text">{{album_name}}</p>
+       </div>
+      </div>
+      {{/each}}
+    </div>
+</div>
+
+<div id="blues">
+    <h2>R&B/Blues/Soul</h2>
+</div>
+
+<div id="jazz">
+    <h2>Jazz</h2>
+</div>
+
+<div id="classical">
+    <h2>Classical/Film</h2>
+</div>
+
+<div id="country">
+    <h2>Country</h2>
+</div>
+
+<div id="rap">
+    <h2>Rap/Hip-Hop</h2>
+</div>
