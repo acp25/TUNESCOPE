@@ -28,6 +28,7 @@ function getRock() {
         rockAlbumimg.id = data[i].id;
         rockAlbumimg.src = `./images/${data[i].cover}`;
         rockAlbumimg.className = "albumArt";
+        rockRow.appendChild(rockAlbumimg);
         rockAlbumimg.addEventListener("click", () => {
           commentEl.innerHTML = "";
           albumrowParentEl.style.display = "none";
@@ -37,7 +38,6 @@ function getRock() {
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        rockRow.appendChild(rockAlbumimg);
       }
     })
     .catch((err) => {
@@ -58,14 +58,15 @@ function getMetal() {
         metalAlbumimg.id = data[i].id;
         metalAlbumimg.src = `./images/${data[i].cover}`;
         metalAlbumimg.className = "albumArt";
+        metalRow.appendChild(metalAlbumimg);
         metalAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        metalRow.appendChild(metalAlbumimg);
       }
     })
     .catch((err) => {
@@ -86,14 +87,15 @@ function getPop() {
         popAlbumimg.id = data[i].id;
         popAlbumimg.src = `./images/${data[i].cover}`;
         popAlbumimg.className = "albumArt";
+        popRow.appendChild(popAlbumimg);
         popAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        popRow.appendChild(popAlbumimg);
       }
     })
     .catch((err) => {
@@ -114,14 +116,16 @@ function getElectronic() {
         electronicAlbumimg.id = data[i].id;
         electronicAlbumimg.src = `./images/${data[i].cover}`;
         electronicAlbumimg.className = "albumArt";
+        electronicRow.appendChild(electronicAlbumimg);
         electronicAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        electronicRow.appendChild(electronicAlbumimg);
+        
       }
     })
     .catch((err) => {
@@ -142,14 +146,15 @@ function getBlues() {
         bluesAlbumimg.id = data[i].id;
         bluesAlbumimg.src = `./images/${data[i].cover}`;
         bluesAlbumimg.className = "albumArt";
+        bluesRow.appendChild(bluesAlbumimg);
         bluesAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        bluesRow.appendChild(bluesAlbumimg);
       }
     })
     .catch((err) => {
@@ -170,14 +175,15 @@ function getJazz() {
         jazzAlbumimg.id = data[i].id;
         jazzAlbumimg.src = `./images/${data[i].cover}`;
         jazzAlbumimg.className = "albumArt";
+        jazzRow.appendChild(jazzAlbumimg);
         jazzAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        jazzRow.appendChild(jazzAlbumimg);
       }
     })
     .catch((err) => {
@@ -198,14 +204,15 @@ function getClassical() {
         classicalAlbumimg.id = data[i].id;
         classicalAlbumimg.src = `./images/${data[i].cover}`;
         classicalAlbumimg.className = "albumArt";
+        classicalRow.appendChild(classicalAlbumimg);
         classicalAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        classicalRow.appendChild(classicalAlbumimg);
       }
     })
     .catch((err) => {
@@ -226,14 +233,15 @@ function getCountry() {
         countryAlbumimg.id = data[i].id;
         countryAlbumimg.src = `./images/${data[i].cover}`;
         countryAlbumimg.className = "albumArt";
+        countryRow.appendChild(countryAlbumimg);
         countryAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        countryRow.appendChild(countryAlbumimg);
       }
     })
     .catch((err) => {
@@ -254,6 +262,7 @@ function getRap() {
         rapAlbumimg.id = data[i].id;
         rapAlbumimg.src = `./images/${data[i].cover}`;
         rapAlbumimg.className = "albumArt";
+        rapRow.appendChild(rapAlbumimg);
         rapAlbumimg.addEventListener("click", () => {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
@@ -261,7 +270,7 @@ function getRap() {
           songlistEl.innerHTML = data[i].spotify_embed;
           getAllComments();
         });
-        rapRow.appendChild(rapAlbumimg);
+        
       }
     })
     .catch((err) => {
@@ -284,20 +293,21 @@ function getAll() {
 getAll();
 
 closeViewAlbumBtn.addEventListener("click", () => {
+  viewAlbumImg.id = '';
   albumrowParentEl.style.display = "block";
   viewAlbumParentEl.style.display = "none";
+  
 });
 
 console.log("hello world");
 
 const newFormHanlder = async (event) => {
   event.preventDefault();
-
   const comment_text = document.querySelector("#comment").value.trim();
   const user_id = document.querySelector("#user_id").value.trim();
-  const album_id = document.querySelector("#album_id").value.trim();
+  const album_id = parseInt(viewAlbumImg.id);
 
-  if (comment_text && user_id && album_id) {
+  if (comment_text && user_id) {
     const response = await fetch("/api/comments", {
       method: "POST",
       body: JSON.stringify({ comment_text, user_id, album_id }),
@@ -306,8 +316,9 @@ const newFormHanlder = async (event) => {
       },
     });
     if (response.ok) {
-      document.location.replace("/");
+      document.location.replace("/explore");
       console.log(comment_text);
+      getAllComments();
     } else {
       alert("Failed to upload comment");
     }
@@ -319,24 +330,28 @@ document
   .addEventListener("submit", newFormHanlder);
 
 function getAllComments() {
+  commentEl.innerHTML = '';
   fetch('/api/comments')
     .then((response) => {
       return response.json();
     })
     .then((data) => {
-      albumViewed = parseInt(viewAlbumImg.id);
+      commentEl.innerHTML = '';
+      let albumViewed = viewAlbumImg.id;
       for(let currComment = 0; currComment < data.length; currComment++) {
-        if(data[currComment].album_id !== albumViewed) {
-          currComment++;
-        } else {
+        if(data[currComment].album_id == albumViewed) {
           let username = document.createElement('p');
+          username.className = 'commentUserName';
           let commentMesssage = document.createElement('p');
           let comment = document.createElement('div');
+          comment.className = 'albumComments';
           username.textContent = data[currComment].user.username;
           commentMesssage.textContent = data[currComment].comment_text;
           comment.appendChild(username);
           comment.appendChild(commentMesssage);
           commentEl.appendChild(comment);
+        } else {
+          currComment++;
         }
       }
     })

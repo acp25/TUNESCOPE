@@ -1,12 +1,11 @@
-console.log('hello world')
 
-const newFormHanlder = async (event) => {
+
+const submitComment = async (event) => {
     event.preventDefault();
 
     const comment_text = document.querySelector('#comment').value.trim();
     const user_id = document.querySelector('#user_id').value.trim();
-    const album_id = document.querySelector('#album_id').value.trim();
-
+    const album_id = parseInt(document.getElementById("viewAlbumcover").id);
 
     if (comment_text && user_id && album_id) {
         const response = await fetch('/api/comments', {
@@ -27,4 +26,4 @@ const newFormHanlder = async (event) => {
 
 document 
    .querySelector('.comment-form')
-   .addEventListener('submit', newFormHanlder);
+   .addEventListener('submit', submitComment);
