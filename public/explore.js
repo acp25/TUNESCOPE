@@ -1,3 +1,4 @@
+
 console.log("Connected");
 const rockRow = document.getElementById("rock");
 const metalRow = document.getElementById("metal");
@@ -10,6 +11,10 @@ const countryRow = document.getElementById("country");
 const rapRow = document.getElementById("rap");
 const viewAlbumImg = document.getElementById("viewAlbumcover");
 const songlistEl = document.getElementById("songlist");
+const albumId = document.getElementById("albumId");
+const released = document.getElementById("released");
+const albumLength = document.getElementById("length");
+const label = document.getElementById("label");
 const closeViewAlbumBtn = document.getElementById("closeViewAblum");
 const albumrowParentEl = document.getElementById("album_row_wrapper");
 const viewAlbumParentEl = document.getElementById("popup_container");
@@ -33,6 +38,10 @@ function getRock() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+        //   albumId.innerHTML = `Album ID: ${data[i].id}`;
+        //   albumLength.innerHTML = `Runtime: ${data[i].runtime}`;
+        //   label.innerHTML = `Label: ${data[i].label}`;
+        //   released.innerHTML = `Released: ${data[i].released}`;
           let theseComments = data[i];
           for (let i = 0; i < theseComments.comments.length; i++) {
             let userComment = document.createElement("p");
@@ -293,7 +302,7 @@ const newFormHanlder = async (event) => {
       },
     });
     if (response.ok) {
-      document.location.replace("/");
+      document.location.replace("/explore");
       console.log(comment_text);
     } else {
       alert("Failed to upload comment");
