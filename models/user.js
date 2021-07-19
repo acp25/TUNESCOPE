@@ -35,15 +35,6 @@ User.init(
                 isEmail: true
             },
         },
-        playlist_id: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: "playlist",
-                key: "id"
-            },
-            
-        }
         
     },
     {

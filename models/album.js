@@ -15,44 +15,36 @@ Album.init(
       primaryKey: true,
       autoIncrement: true,
     },
-
     album_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-
     artist_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-
     released: {
       type: DataTypes.STRING,
       allowNull: true,
     },
-
     label: {
       type: DataTypes.STRING,
       allowNull: true,
     },
-
-    length: {
+    runtime: {
       type: DataTypes.STRING,
       allowNull: true,
     },
-
     cover: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-
     amazon_image_link: {
       type: DataTypes.STRING,
 
       type: DataTypes.TEXT,
       allowNull: true,
     },
-
     amazon_link: {
       type: DataTypes.STRING,
 
@@ -60,7 +52,6 @@ Album.init(
 
       allowNull: true,
     },
-
     spotify_embed: {
 
       type: DataTypes.STRING,
@@ -69,19 +60,9 @@ Album.init(
 
       allowNull: false,
     },
-
     likes: {
       type: DataTypes.INTEGER,
       default: 0,
-    },
-
-    tag_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "tag",
-        key: "id",
-        unique: false,
-      },
     },
     genre_id: {
       type: DataTypes.INTEGER,
@@ -89,13 +70,6 @@ Album.init(
         model: "genre",
         key: "id",
         unique: false,
-      },
-    },
-    playlist_album_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "playlist",
-        key: "id",
       },
     },
   },
