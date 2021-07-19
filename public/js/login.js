@@ -1,6 +1,5 @@
 console.log("connected");
 const loginFormHandler = async (event) => {
-  console.log("connected");
   event.preventDefault();
 
   const username = document.getElementById("username-login").value.trim();
@@ -17,7 +16,7 @@ const loginFormHandler = async (event) => {
     if (response.ok) {
       // If successful, redirect the browser to the profile page
       console.log("response is ok");
-      document.location.replace("/about");
+      document.location.replace("/explore");
     } else {
       alert(response.statusText);
       console.log("er");
@@ -28,3 +27,6 @@ const loginFormHandler = async (event) => {
 document
   .getElementById("loginInBtn")
   .addEventListener("click", loginFormHandler);
+
+
+
