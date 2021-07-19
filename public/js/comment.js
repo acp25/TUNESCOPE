@@ -2,7 +2,6 @@
 
 const submitComment = async (event) => {
     event.preventDefault();
-
     const comment_text = document.querySelector('#comment').value.trim();
     const user_id = document.querySelector('#user_id').value.trim();
     const album_id = parseInt(document.getElementById("viewAlbumcover").id);

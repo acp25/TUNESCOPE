@@ -318,7 +318,6 @@ const newFormHanlder = async (event) => {
     if (response.ok) {
       document.location.replace("/explore");
       console.log(comment_text);
-      getAllComments();
     } else {
       alert("Failed to upload comment");
     }
