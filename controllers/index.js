@@ -1,9 +1,9 @@
 const router = require('express').Router();
-const albumRoutes = require('./albumroutes');
-const playlistRoutes = require('./playlistroutes');
-const userroutes = require('./userroutes');
-
-router.use('/albums', albumRoutes);
+const userroutes = require('./api/userroutes');
+const homeRoutes = require('./homeroutes');
+const apiRoutes = require('./api');
 router.use('/user', userroutes);
+router.use('/', homeRoutes);
+router.use('/api', apiRoutes);
 
 module.exports = router;
