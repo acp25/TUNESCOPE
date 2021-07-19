@@ -23,6 +23,9 @@ router.get("/", async (req, res) => {
   }
 });
 
+
+
+
 router.get("/rock", async (req, res) => {
   try {
     const albumData = await Album.findAll({
