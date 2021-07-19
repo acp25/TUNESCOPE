@@ -1,4 +1,5 @@
 const router = require("express").Router();
+
 const { Album, Genre, Comment, User } = require("../../models");
 
 router.get("/", async (req, res) => {
@@ -12,7 +13,6 @@ router.get("/", async (req, res) => {
         {
           model: Comment,
           attributes: ["comment_text", "user_id"],
-
         },
       ],
     });
