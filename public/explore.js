@@ -1,4 +1,3 @@
-
 console.log("Connected");
 const rockRow = document.getElementById("rock");
 const metalRow = document.getElementById("metal");
@@ -40,16 +39,79 @@ function getRock() {
           viewAlbumImg.src = `./images/${data[i].cover}`;
           viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
-        //   albumId.innerHTML = `Album ID: ${data[i].id}`;
-        //   albumLength.innerHTML = `Runtime: ${data[i].runtime}`;
-        //   label.innerHTML = `Label: ${data[i].label}`;
-        //   released.innerHTML = `Released: ${data[i].released}`;
-          let theseComments = data[i];
-          for (let i = 0; i < theseComments.comments.length; i++) {
-            let userComment = document.createElement("p");
-            userComment.textContent = theseComments.comments[i].comment_text;
-            commentEl.appendChild(userComment);
+          //   albumId.innerHTML = `Album ID: ${data[i].id}`;
+          //   albumLength.innerHTML = `Runtime: ${data[i].runtime}`;
+          //   label.innerHTML = `Label: ${data[i].label}`;
+          //   released.innerHTML = `Released: ${data[i].released}`;
+
+          // Comment Functionality for the Rock albums.
+          const newFormHanlder = async (event) => {
+            event.preventDefault();
+
+            const comment_text = document
+              .querySelector("#comment")
+              .value.trim();
+            const user_id = document.querySelector("#user_id").value.trim();
+            const album_id = data[i].id;
+
+            if (comment_text && user_id) {
+              const response = await fetch("/api/comments", {
+                method: "POST",
+                body: JSON.stringify({ comment_text, user_id, album_id }),
+                headers: {
+                  "Content-Type": "application/json",
+                },
+              });
+              if (response.ok) {
+                document.location.replace("/explore");
+                console.log(album_id);
+              } else {
+                alert("Failed to upload comment");
+              }
+            }
+          };
+          document
+            .querySelector(".comment-form")
+            .addEventListener("submit", newFormHanlder);
+
+          // Username functionality for Rock group
+          function getAllComments() {
+            fetch("/api/comments")
+              .then((response) => {
+                return response.json();
+              })
+              .then((data) => {
+                albumViewed = parseInt(viewAlbumImg.id);
+                for (
+                  let currComment = 0;
+                  currComment < data.length;
+                  currComment++
+                ) {
+                  if (data[currComment].album_id !== albumViewed) {
+                    currComment++;
+                  } else {
+                    let username = document.createElement("p");
+                    let commentMesssage = document.createElement("p");
+                    let comment = document.createElement("div");
+                    username.textContent = data[currComment].user.username;
+                    commentMesssage.textContent =
+                      data[currComment].comment_text;
+                    comment.appendChild(username);
+                    comment.appendChild(commentMesssage);
+                    commentEl.appendChild(comment);
+
+                    // commentEl.innerHTML(`${username}: ${commentMessage}`)
+                  }
+                }
+              });
           }
+
+        //   let theseComments = data[i];
+        //   for (let i = 0; i < theseComments.comments.length; i++) {
+        //     let userComment = document.createElement("p");
+        //     userComment.textContent = theseComments.comments[i].comment_text;
+        //     commentEl.appendChild(userComment);
+        //   }
           getAllComments();
         });
         rockRow.appendChild(rockAlbumimg);
@@ -305,54 +367,54 @@ closeViewAlbumBtn.addEventListener("click", () => {
 
 console.log("hello world");
 
-const newFormHanlder = async (event) => {
-  event.preventDefault();
+// const newFormHanlder = async (event) => {
+//   event.preventDefault();
 
-  const comment_text = document.querySelector("#comment").value.trim();
-  const user_id = document.querySelector("#user_id").value.trim();
-  const album_id = document.querySelector("#album_id").value.trim();
+//   const comment_text = document.querySelector("#comment").value.trim();
+//   const user_id = document.querySelector("#user_id").value.trim();
+//   const album_id = data[i].id;
 
-  if (comment_text && user_id && album_id) {
-    const response = await fetch("/api/comments", {
-      method: "POST",
-      body: JSON.stringify({ comment_text, user_id, album_id }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    if (response.ok) {
-      document.location.replace("/explore");
-      console.log(comment_text);
-    } else {
-      alert("Failed to upload comment");
-    }
-  }
-};
+//   if (comment_text && user_id && album_id) {
+//     const response = await fetch("/api/comments", {
+//       method: "POST",
+//       body: JSON.stringify({ comment_text, user_id, album_id }),
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//     });
+//     if (response.ok) {
+//       document.location.replace("/explore");
+//       console.log(comment_text);
+//     } else {
+//       alert("Failed to upload comment");
+//     }
+//   }
+// };
 
-document
-  .querySelector(".comment-form")
-  .addEventListener("submit", newFormHanlder);
+// document
+//   .querySelector(".comment-form")
+//   .addEventListener("submit", newFormHanlder);
 
-function getAllComments() {
-  fetch('/api/comments')
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      albumViewed = parseInt(viewAlbumImg.id);
-      for(let currComment = 0; currComment < data.length; currComment++) {
-        if(data[currComment].album_id !== albumViewed) {
-          currComment++;
-        } else {
-          let username = document.createElement('p');
-          let commentMesssage = document.createElement('p');
-          let comment = document.createElement('div');
-          username.textContent = data[currComment].user.username;
-          commentMesssage.textContent = data[currComment].comment_text;
-          comment.appendChild(username);
-          comment.appendChild(commentMesssage);
-          commentEl.appendChild(comment);
-        }
-      }
-    })
-}
+// function getAllComments() {
+//   fetch('/api/comments')
+//     .then((response) => {
+//       return response.json();
+//     })
+//     .then((data) => {
+//       albumViewed = parseInt(viewAlbumImg.id);
+//       for(let currComment = 0; currComment < data.length; currComment++) {
+//         if(data[currComment].album_id !== albumViewed) {
+//           currComment++;
+//         } else {
+//           let username = document.createElement('p');
+//           let commentMesssage = document.createElement('p');
+//           let comment = document.createElement('div');
+//           username.textContent = data[currComment].user.username;
+//           commentMesssage.textContent = data[currComment].comment_text;
+//           comment.appendChild(username);
+//           comment.appendChild(commentMesssage);
+//           commentEl.appendChild(comment);
+//         }
+//       }
+//     })
+// }
