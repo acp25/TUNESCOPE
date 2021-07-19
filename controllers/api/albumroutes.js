@@ -1,4 +1,5 @@
 const router = require("express").Router();
+
 const { Album, Genre, Comment, User } = require("../../models");
 
 router.get("/", async (req, res) => {
@@ -12,12 +13,27 @@ router.get("/", async (req, res) => {
         {
           model: Comment,
           attributes: ["comment_text", "user_id"],
-
         },
       ],
     });
 
     res.status(200).json(albumData);
+  } catch (error) {
+    res.status(500).json(error);
+  }
+});
+
+router.get("/comments", async (req, res) => {
+  try {
+    const commentData = await Comment.findAll({
+      include: [
+        {
+          model: User,
+          attributes: ["username"],
+        },
+      ],
+    });
+    res.status(200).json(commentData);
   } catch (error) {
     res.status(500).json(error);
   }
