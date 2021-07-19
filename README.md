@@ -6,9 +6,7 @@ Tunescope
 
 ## User Story
 
-AS A young person who needs to make medical appointments  
-I WANT to check availability, schedule, cancel, and reschedule appointments on my secure calendar app  
-SO THAT I can easily manage my appointments virtually, from anywhere, on any device  
+
 
 ## Deployment
 
