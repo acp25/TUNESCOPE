@@ -9,9 +9,9 @@ const loginFormHandler = async (event) => {
   if (username && password) {
     console.log(username);
     console.log(password);
-    const response = await fetch("/api/login", {
+    const response = await fetch("/user/login", {
       method: "POST",
-      body: JSON.stringify({ username, password }),
+      body: JSON.stringify({username, password}),
       headers: { "Content-Type": "application/json" },
     });
     if (response.ok) {
@@ -27,4 +27,4 @@ const loginFormHandler = async (event) => {
 
 document
   .getElementById("loginInBtn")
-  .addEventListener("submit", loginFormHandler);
+  .addEventListener("click", loginFormHandler);
