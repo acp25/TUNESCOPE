@@ -7,8 +7,20 @@
       <div class="album-img">
         <img src="" alt="albumcover" id="viewAlbumcover">
       </div>
-      <label for="inputComment" class="form-label">Comments</label>
-      <input type="comment" id="inputComment" class="form-control">
+      <form class="form comment-form">
+         <div class="form-group">
+        <textarea class="form-input" id="comment" name="comment"></textarea>
+      </div>
+               <div class="form-group">
+        <textarea class="form-input" id="user_id" name="comment"></textarea>
+      </div>
+               <div class="form-group">
+        <textarea class="form-input" id="album_id" name="comment"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </form>
       <div class="album-comments" id="album-comments">
       </div>
     </div>

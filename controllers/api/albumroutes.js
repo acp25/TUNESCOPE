@@ -23,21 +23,8 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/comments", async (req, res) => {
-  try {
-    const commentData = await Comment.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ["username"],
-        },
-      ],
-    });
-    res.status(200).json(commentData);
-  } catch (error) {
-    res.status(500).json(error);
-  }
-});
+
+
 
 router.get("/rock", async (req, res) => {
   try {
