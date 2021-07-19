@@ -1,6 +1,5 @@
 console.log("connected");
 const loginFormHandler = async (event) => {
-  console.log("connected");
   event.preventDefault();
 
   const username = document.getElementById("username-login").value.trim();
@@ -28,3 +27,6 @@ const loginFormHandler = async (event) => {
 document
   .getElementById("loginInBtn")
   .addEventListener("click", loginFormHandler);
+
+
+
