@@ -25,6 +25,7 @@ function getRock() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let rockAlbumimg = document.createElement("img");
+        rockAlbumimg.id = data[i].id;
         rockAlbumimg.src = `./images/${data[i].cover}`;
         rockAlbumimg.className = "albumArt";
         rockAlbumimg.addEventListener("click", () => {
@@ -32,13 +33,9 @@ function getRock() {
           albumrowParentEl.style.display = "none";
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
+          viewAlbumImg.id = data[i].id;
           songlistEl.innerHTML = data[i].spotify_embed;
-          let theseComments = data[i];
-          for (let i = 0; i < theseComments.comments.length; i++) {
-            let userComment = document.createElement("p");
-            userComment.textContent = theseComments.comments[i].comment_text;
-            commentEl.appendChild(userComment);
-          }
+          getAllComments();
         });
         rockRow.appendChild(rockAlbumimg);
       }
@@ -58,6 +55,7 @@ function getMetal() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let metalAlbumimg = document.createElement("img");
+        metalAlbumimg.id = data[i].id;
         metalAlbumimg.src = `./images/${data[i].cover}`;
         metalAlbumimg.className = "albumArt";
         metalAlbumimg.addEventListener("click", () => {
@@ -65,6 +63,7 @@ function getMetal() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         metalRow.appendChild(metalAlbumimg);
       }
@@ -84,6 +83,7 @@ function getPop() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let popAlbumimg = document.createElement("img");
+        popAlbumimg.id = data[i].id;
         popAlbumimg.src = `./images/${data[i].cover}`;
         popAlbumimg.className = "albumArt";
         popAlbumimg.addEventListener("click", () => {
@@ -91,6 +91,7 @@ function getPop() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         popRow.appendChild(popAlbumimg);
       }
@@ -110,6 +111,7 @@ function getElectronic() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let electronicAlbumimg = document.createElement("img");
+        electronicAlbumimg.id = data[i].id;
         electronicAlbumimg.src = `./images/${data[i].cover}`;
         electronicAlbumimg.className = "albumArt";
         electronicAlbumimg.addEventListener("click", () => {
@@ -117,6 +119,7 @@ function getElectronic() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         electronicRow.appendChild(electronicAlbumimg);
       }
@@ -136,6 +139,7 @@ function getBlues() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let bluesAlbumimg = document.createElement("img");
+        bluesAlbumimg.id = data[i].id;
         bluesAlbumimg.src = `./images/${data[i].cover}`;
         bluesAlbumimg.className = "albumArt";
         bluesAlbumimg.addEventListener("click", () => {
@@ -143,6 +147,7 @@ function getBlues() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         bluesRow.appendChild(bluesAlbumimg);
       }
@@ -162,6 +167,7 @@ function getJazz() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let jazzAlbumimg = document.createElement("img");
+        jazzAlbumimg.id = data[i].id;
         jazzAlbumimg.src = `./images/${data[i].cover}`;
         jazzAlbumimg.className = "albumArt";
         jazzAlbumimg.addEventListener("click", () => {
@@ -169,6 +175,7 @@ function getJazz() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         jazzRow.appendChild(jazzAlbumimg);
       }
@@ -188,6 +195,7 @@ function getClassical() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let classicalAlbumimg = document.createElement("img");
+        classicalAlbumimg.id = data[i].id;
         classicalAlbumimg.src = `./images/${data[i].cover}`;
         classicalAlbumimg.className = "albumArt";
         classicalAlbumimg.addEventListener("click", () => {
@@ -195,6 +203,7 @@ function getClassical() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         classicalRow.appendChild(classicalAlbumimg);
       }
@@ -214,6 +223,7 @@ function getCountry() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let countryAlbumimg = document.createElement("img");
+        countryAlbumimg.id = data[i].id;
         countryAlbumimg.src = `./images/${data[i].cover}`;
         countryAlbumimg.className = "albumArt";
         countryAlbumimg.addEventListener("click", () => {
@@ -221,6 +231,7 @@ function getCountry() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         countryRow.appendChild(countryAlbumimg);
       }
@@ -240,6 +251,7 @@ function getRap() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         let rapAlbumimg = document.createElement("img");
+        rapAlbumimg.id = data[i].id;
         rapAlbumimg.src = `./images/${data[i].cover}`;
         rapAlbumimg.className = "albumArt";
         rapAlbumimg.addEventListener("click", () => {
@@ -247,6 +259,7 @@ function getRap() {
           viewAlbumParentEl.style.display = "block";
           viewAlbumImg.src = `./images/${data[i].cover}`;
           songlistEl.innerHTML = data[i].spotify_embed;
+          getAllComments();
         });
         rapRow.appendChild(rapAlbumimg);
       }
@@ -304,3 +317,27 @@ const newFormHanlder = async (event) => {
 document
   .querySelector(".comment-form")
   .addEventListener("submit", newFormHanlder);
+
+function getAllComments() {
+  fetch('/api/comments')
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      albumViewed = parseInt(viewAlbumImg.id);
+      for(let currComment = 0; currComment < data.length; currComment++) {
+        if(data[currComment].album_id !== albumViewed) {
+          currComment++;
+        } else {
+          let username = document.createElement('p');
+          let commentMesssage = document.createElement('p');
+          let comment = document.createElement('div');
+          username.textContent = data[currComment].user.username;
+          commentMesssage.textContent = data[currComment].comment_text;
+          comment.appendChild(username);
+          comment.appendChild(commentMesssage);
+          commentEl.appendChild(comment);
+        }
+      }
+    })
+}
