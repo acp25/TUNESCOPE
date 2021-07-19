@@ -33,10 +33,8 @@ SO THAT I can easily manage my appointments virtually, from anywhere, on any dev
 - Sequelize
 - MySQL
 - Handlebars.js
-- Passport.js
 - bcrypt
 - dotenv
-- Google Fonts
 - Heroku
 
 ## Contributors
