@@ -1,15 +1,26 @@
 # TUNESCOPE
 
-With  
+TuneScope is a music sharing platform that allows a user to find their favorite albums, Discover new ones, leave likes / comments to interact with other users, and add albums 
+to their personal playlist.
+ 
 
 Tunescope 
 
 ## User Story
 
+As a user, I want an application that allows me to explore my favorite albums, discover new ones, leave comments / likes, and add to a playlist.
+When I open the application, I am greeted with a login form, explore button, and a learn more button. 
+When I click on the learn more button, I am taken to a page that explains what TuneScope is to the user.
+When I click explore, I am taken to the page with all the albums listed. 
+When I login / signup, I am taken to the explore page where I can view all the albums in their perspective genre. 
+When I click on a cover art, I am given the tracks on the album, the likes / comments on the album, the ability to like / leave a comment, and the ability to add the album to my playlist.
+
+
 
 
 ## Deployment
 
+Heroku: https://mighty-ravine-55452.herokuapp.com/
 
 
 ## Screenshot
