@@ -22,6 +22,7 @@ When I click on a cover art, I am given the tracks on the album, the likes / com
 
 Heroku: https://nameless-cliffs-89877.herokuapp.com/explore
 
+Demo Video: https://youtu.be/6Onhm7ShRyk
 
 ## Screenshot
 
