@@ -20,7 +20,7 @@ When I click on a cover art, I am given the tracks on the album, the likes / com
 
 ## Deployment
 
-Heroku: https://mighty-ravine-55452.herokuapp.com/
+Heroku: https://nameless-cliffs-89877.herokuapp.com/explore
 
 
 ## Screenshot
